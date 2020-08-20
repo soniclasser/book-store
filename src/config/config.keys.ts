@@ -1,0 +1,9 @@
+export enum Configuration {
+    PORT= 'PORT',
+    APIVERSION= 'APIVERSION',
+    HOST='HOST',
+    USERNAME='USERNAME',
+    PASSWORD='PASSWORD',
+    DATABASE='DATABASE',
+    DBPORT='DB_PORT',
+}
