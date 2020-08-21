@@ -11,7 +11,7 @@ export class Role extends BaseEntity {
     name:string
 
     @Column({type: 'text', nullable: false })
-    dionescript:string
+    description:string
 
     @Column({type: 'varchar',default:'ACTIVE' , length: 8 })
     status:string;
