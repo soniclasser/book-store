@@ -24,7 +24,7 @@ export class UserService {
             {where: {status: 'ACTIVE'}
         });
 
-        if (user) {
+        if (!user) {
             throw new NotFoundException();
         }
 
